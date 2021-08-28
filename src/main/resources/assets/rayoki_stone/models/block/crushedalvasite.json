@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "rayoki_stone:blocks/alvasitecobble",
+    "up": "rayoki_stone:blocks/alvasitecobble",
+    "north": "rayoki_stone:blocks/alvasitecobble",
+    "east": "rayoki_stone:blocks/alvasitecobble",
+    "south": "rayoki_stone:blocks/alvasitecobble",
+    "west": "rayoki_stone:blocks/alvasitecobble",
+    "particle": "rayoki_stone:blocks/alvasitecobble"
+  }
+}
