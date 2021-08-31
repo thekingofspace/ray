@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "rayoki_stone:blocks/magnite",
+    "up": "rayoki_stone:blocks/magnite",
+    "north": "rayoki_stone:blocks/magnite",
+    "east": "rayoki_stone:blocks/magnite",
+    "south": "rayoki_stone:blocks/magnite",
+    "west": "rayoki_stone:blocks/magnite",
+    "particle": "rayoki_stone:blocks/magnite"
+  }
+}

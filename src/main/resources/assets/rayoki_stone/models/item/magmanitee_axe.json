@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "rayoki_stone:items/magmanitee_axe"
+  }
+}

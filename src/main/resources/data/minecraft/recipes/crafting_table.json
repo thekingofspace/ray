@@ -1,0 +1,9 @@
+{
+  "group": "rayoki_stone",
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "rayoki_stone:alvasite"
+  },
+  "result": "rayoki_stone:alvasite_brick"
+}

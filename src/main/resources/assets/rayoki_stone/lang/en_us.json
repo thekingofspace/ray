@@ -1,4 +1,16 @@
 {
+  "block.rayoki_stone.alvasite_brick": "Alvasite Brick",
   "block.rayoki_stone.crushedalvasite": "Crushed Alvasite",
-  "block.rayoki_stone.alvasite": "Alvasite"
+  "item.rayoki_stone.magmanitee_leggings": "Magmanite Leggings",
+  "item.rayoki_stone.magmanitee_boots": "Magmanite Boots",
+  "block.rayoki_stone.alvasite": "Alvasite",
+  "item.rayoki_stone.magmanitee_hoe": "Magmanite Hoe",
+  "item.rayoki_stone.magmanitee_chestplate": "Magmanite Body",
+  "item.rayoki_stone.magmanitee_pickaxe": "Magmanite Pickaxe",
+  "item.rayoki_stone.magmanitee_sword": "Magmanite Sword",
+  "item.rayoki_stone.magmanitee_helmet": "Magmanite Helmet",
+  "item.rayoki_stone.magmanite_ingot": "Magmanite Ingot",
+  "block.rayoki_stone.magmanitee": "Magmanite Ore",
+  "item.rayoki_stone.magmanitee_axe": "Magmanite Axe",
+  "item.rayoki_stone.magmanitee_shovel": "Magmanite Shovel"
 }

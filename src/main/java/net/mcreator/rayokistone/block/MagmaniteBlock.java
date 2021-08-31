@@ -32,7 +32,6 @@ import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
-import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
@@ -43,11 +42,11 @@ import java.util.List;
 import java.util.Collections;
 
 @RayokiStoneModElements.ModElement.Tag
-public class AlvasiteBlock extends RayokiStoneModElements.ModElement {
-	@ObjectHolder("rayoki_stone:alvasite")
+public class MagmaniteBlock extends RayokiStoneModElements.ModElement {
+	@ObjectHolder("rayoki_stone:magmanitee")
 	public static final Block block = null;
-	public AlvasiteBlock(RayokiStoneModElements instance) {
-		super(instance, 2);
+	public MagmaniteBlock(RayokiStoneModElements instance) {
+		super(instance, 6);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}
@@ -62,7 +61,7 @@ public class AlvasiteBlock extends RayokiStoneModElements.ModElement {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).harvestLevel(2)
 					.harvestTool(ToolType.PICKAXE).setRequiresTool());
-			setRegistryName("alvasite");
+			setRegistryName("magmanitee");
 		}
 
 		@Override
@@ -75,7 +74,7 @@ public class AlvasiteBlock extends RayokiStoneModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(CrushedalvasiteBlock.block));
+			return Collections.singletonList(new ItemStack(this, 1));
 		}
 	}
 	private static Feature<OreFeatureConfig> feature = null;
@@ -86,31 +85,7 @@ public class AlvasiteBlock extends RayokiStoneModElements.ModElement {
 		static final com.mojang.serialization.Codec<CustomRuleTest> codec = com.mojang.serialization.Codec.unit(() -> INSTANCE);
 		public boolean test(BlockState blockAt, Random random) {
 			boolean blockCriteria = false;
-			if (blockAt.getBlock() == Blocks.STONE)
-				blockCriteria = true;
-			if (blockAt.getBlock() == Blocks.COAL_ORE)
-				blockCriteria = true;
-			if (blockAt.getBlock() == Blocks.IRON_ORE)
-				blockCriteria = true;
-			if (blockAt.getBlock() == Blocks.REDSTONE_ORE)
-				blockCriteria = true;
-			if (blockAt.getBlock() == Blocks.REDSTONE_ORE)
-				blockCriteria = true;
-			if (blockAt.getBlock() == Blocks.GOLD_ORE)
-				blockCriteria = true;
-			if (blockAt.getBlock() == Blocks.LAPIS_ORE)
-				blockCriteria = true;
-			if (blockAt.getBlock() == Blocks.DIAMOND_ORE)
-				blockCriteria = true;
-			if (blockAt.getBlock() == Blocks.EMERALD_ORE)
-				blockCriteria = true;
-			if (blockAt.getBlock() == Blocks.GRANITE)
-				blockCriteria = true;
-			if (blockAt.getBlock() == Blocks.DIORITE)
-				blockCriteria = true;
-			if (blockAt.getBlock() == Blocks.ANDESITE)
-				blockCriteria = true;
-			if (blockAt.getBlock() == Blocks.GRAVEL)
+			if (blockAt.getBlock() == AlvasiteBlock.block)
 				blockCriteria = true;
 			return blockCriteria;
 		}
@@ -123,7 +98,7 @@ public class AlvasiteBlock extends RayokiStoneModElements.ModElement {
 	private static class FeatureRegisterHandler {
 		@SubscribeEvent
 		public void registerFeature(RegistryEvent.Register<Feature<?>> event) {
-			CUSTOM_MATCH = Registry.register(Registry.RULE_TEST, new ResourceLocation("rayoki_stone:alvasite_match"), () -> CustomRuleTest.codec);
+			CUSTOM_MATCH = Registry.register(Registry.RULE_TEST, new ResourceLocation("rayoki_stone:magmanitee_match"), () -> CustomRuleTest.codec);
 			feature = new OreFeature(OreFeatureConfig.CODEC) {
 				@Override
 				public boolean generate(ISeedReader world, ChunkGenerator generator, Random rand, BlockPos pos, OreFeatureConfig config) {
@@ -136,10 +111,10 @@ public class AlvasiteBlock extends RayokiStoneModElements.ModElement {
 					return super.generate(world, generator, rand, pos, config);
 				}
 			};
-			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 64)).range(34)
-					.square().func_242731_b(64);
-			event.getRegistry().register(feature.setRegistryName("alvasite"));
-			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("rayoki_stone:alvasite"), configuredFeature);
+			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 9)).range(35)
+					.square().func_242731_b(10);
+			event.getRegistry().register(feature.setRegistryName("magmanitee"));
+			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("rayoki_stone:magmanitee"), configuredFeature);
 		}
 	}
 	@SubscribeEvent

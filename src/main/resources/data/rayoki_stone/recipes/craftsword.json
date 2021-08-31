@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:iron_sword"
+  },
+  "addition": {
+    "item": "rayoki_stone:magmanite_ingot"
+  },
+  "result": {
+    "item": "rayoki_stone:magmanitee_sword"
+  }
+}

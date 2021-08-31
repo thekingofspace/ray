@@ -1,0 +1,12 @@
+{
+  "group": "rayoki_stone",
+  "type": "minecraft:smelting",
+  "experience": 0,
+  "cookingtime": 900,
+  "ingredient": {
+    "item": "rayoki_stone:crushedalvasite"
+  },
+  "result": {
+    "item": "rayoki_stone:alvasite"
+  }
+}

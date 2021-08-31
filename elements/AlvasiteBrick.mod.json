@@ -2,12 +2,12 @@
   "_fv": 24,
   "_type": "block",
   "definition": {
-    "texture": "alvasite",
-    "textureTop": "alvasite",
-    "textureLeft": "alvasite",
-    "textureFront": "alvasite",
-    "textureRight": "alvasite",
-    "textureBack": "alvasite",
+    "texture": "alvasite_brick",
+    "textureTop": "alvasite_brick",
+    "textureLeft": "alvasite_brick",
+    "textureFront": "alvasite_brick",
+    "textureRight": "alvasite_brick",
+    "textureBack": "alvasite_brick",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -32,7 +32,7 @@
         "subtract": false
       }
     ],
-    "name": "Alvasite",
+    "name": "Alvasite Brick",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -43,7 +43,7 @@
     },
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": "CUSTOM:Crushedalvasite"
+      "value": ""
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -121,54 +121,16 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [
-      "Surface"
-    ],
+    "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
         "value": "Blocks.STONE"
-      },
-      {
-        "value": "Blocks.COAL_ORE"
-      },
-      {
-        "value": "Blocks.IRON_ORE"
-      },
-      {
-        "value": "Blocks.REDSTONE_ORE"
-      },
-      {
-        "value": "Blocks.LIT_REDSTONE_ORE"
-      },
-      {
-        "value": "Blocks.GOLD_ORE"
-      },
-      {
-        "value": "Blocks.LAPIS_ORE"
-      },
-      {
-        "value": "Blocks.DIAMOND_ORE"
-      },
-      {
-        "value": "Blocks.EMERALD_ORE"
-      },
-      {
-        "value": "Blocks.STONE#1"
-      },
-      {
-        "value": "Blocks.STONE#3"
-      },
-      {
-        "value": "Blocks.STONE#5"
-      },
-      {
-        "value": "Blocks.GRAVEL"
       }
     ],
-    "frequencyPerChunks": 64,
-    "frequencyOnChunk": 64,
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 34
+    "maxGenerateHeight": 64
   }
 }
