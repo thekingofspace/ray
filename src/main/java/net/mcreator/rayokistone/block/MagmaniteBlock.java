@@ -75,7 +75,7 @@ public class MagmaniteBlock extends RayokiStoneModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(MagmaniteChunksItem.block));
+			return Collections.singletonList(new ItemStack(MagmaniteChunksItem.block, (int) (3)));
 		}
 	}
 	private static Feature<OreFeatureConfig> feature = null;

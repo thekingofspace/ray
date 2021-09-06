@@ -162,23 +162,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "craft_ingot"
-    },
-    {
-      "name": "LightningiteItemInInventoryTick",
-      "type": "procedure",
-      "sortid": 25,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "lightningite_item_in_inventory_tick",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
     }
   ],
   "variable_elements": [],
