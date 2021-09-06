@@ -288,6 +288,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "turquoise_ore"
+    },
+    {
+      "name": "Ruby",
+      "type": "item",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby"
+    },
+    {
+      "name": "RubyOre",
+      "type": "block",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_ore"
     }
   ],
   "variable_elements": [],
@@ -295,6 +313,7 @@
   "language_map": {
     "en_us": {
       "block.rayoki_stone.alvasite_brick": "Alvasite Brick",
+      "block.rayoki_stone.ruby_ore": "Ruby Ore",
       "item.rayoki_stone.magmanite_chunks": "Magmanite Chunks",
       "item.rayoki_stone.red_garnet": "Red Garnet",
       "block.rayoki_stone.opal_ore": "Opal Ore",
@@ -306,6 +325,7 @@
       "block.rayoki_stone.turquoise_ore": "Turquoise Ore",
       "block.rayoki_stone.alvasite": "Alvasite",
       "block.rayoki_stone.topaz_ore": "Topaz Ore",
+      "item.rayoki_stone.ruby": "Ruby",
       "block.rayoki_stone.aquamarine_ore": "Aquamarine Ore",
       "item.rayoki_stone.topaz": "Topaz",
       "item.rayoki_stone.magmanitee_sword": "Magmanite Sword",
