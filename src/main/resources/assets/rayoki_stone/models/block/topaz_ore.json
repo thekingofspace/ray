@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "rayoki_stone:blocks/topaz_ore",
+    "up": "rayoki_stone:blocks/topaz_ore",
+    "north": "rayoki_stone:blocks/topaz_ore",
+    "east": "rayoki_stone:blocks/topaz_ore",
+    "south": "rayoki_stone:blocks/topaz_ore",
+    "west": "rayoki_stone:blocks/topaz_ore",
+    "particle": "rayoki_stone:blocks/topaz_ore"
+  }
+}

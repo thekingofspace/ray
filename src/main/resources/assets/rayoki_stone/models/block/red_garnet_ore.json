@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "rayoki_stone:blocks/red_garnet_ore",
+    "up": "rayoki_stone:blocks/red_garnet_ore",
+    "north": "rayoki_stone:blocks/red_garnet_ore",
+    "east": "rayoki_stone:blocks/red_garnet_ore",
+    "south": "rayoki_stone:blocks/red_garnet_ore",
+    "west": "rayoki_stone:blocks/red_garnet_ore",
+    "particle": "rayoki_stone:blocks/red_garnet_ore"
+  }
+}

@@ -2,15 +2,22 @@
   "block.rayoki_stone.alvasite_brick": "Alvasite Brick",
   "item.rayoki_stone.magmanite_chunks": "Magmanite Chunks",
   "item.rayoki_stone.red_garnet": "Red Garnet",
+  "block.rayoki_stone.opal_ore": "Opal Ore",
   "item.rayoki_stone.opal": "Opal",
   "item.rayoki_stone.peridot": "Peridot",
   "block.rayoki_stone.crushedalvasite": "Crushed Alvasite",
+  "block.rayoki_stone.peridot_ore": "Peridot Ore",
+  "block.rayoki_stone.red_garnet_ore": "Red Garnet Ore",
+  "block.rayoki_stone.turquoise_ore": "Turquoise Ore",
   "block.rayoki_stone.alvasite": "Alvasite",
+  "block.rayoki_stone.topaz_ore": "Topaz Ore",
+  "block.rayoki_stone.aquamarine_ore": "Aquamarine Ore",
   "item.rayoki_stone.topaz": "Topaz",
   "item.rayoki_stone.magmanitee_sword": "Magmanite Sword",
   "item.rayoki_stone.turquoise": "Turquoise",
   "item.rayoki_stone.magmanite_ingot": "Magmanite Ingot",
   "block.rayoki_stone.magmanitee": "Magmanite Ore",
   "item.rayoki_stone.aquamarine": "Aquamarine",
-  "item.rayoki_stone.sapphire": "Sapphire"
+  "item.rayoki_stone.sapphire": "Sapphire",
+  "block.rayoki_stone.sapphire_ore": "Sapphire Ore"
 }

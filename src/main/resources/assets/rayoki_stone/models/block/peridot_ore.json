@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "rayoki_stone:blocks/peridot_ore",
+    "up": "rayoki_stone:blocks/peridot_ore",
+    "north": "rayoki_stone:blocks/peridot_ore",
+    "east": "rayoki_stone:blocks/peridot_ore",
+    "south": "rayoki_stone:blocks/peridot_ore",
+    "west": "rayoki_stone:blocks/peridot_ore",
+    "particle": "rayoki_stone:blocks/peridot_ore"
+  }
+}
