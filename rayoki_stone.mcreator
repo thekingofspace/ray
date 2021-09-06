@@ -162,6 +162,69 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "craft_ingot"
+    },
+    {
+      "name": "RedGarnet",
+      "type": "item",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "red_garnet"
+    },
+    {
+      "name": "Aquamarine",
+      "type": "item",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aquamarine"
+    },
+    {
+      "name": "Peridot",
+      "type": "item",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "peridot"
+    },
+    {
+      "name": "Sapphire",
+      "type": "item",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sapphire"
+    },
+    {
+      "name": "Opal",
+      "type": "item",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opal"
+    },
+    {
+      "name": "Topaz",
+      "type": "item",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "topaz"
+    },
+    {
+      "name": "Turquoise",
+      "type": "item",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "turquoise"
     }
   ],
   "variable_elements": [],
@@ -170,11 +233,18 @@
     "en_us": {
       "block.rayoki_stone.alvasite_brick": "Alvasite Brick",
       "item.rayoki_stone.magmanite_chunks": "Magmanite Chunks",
+      "item.rayoki_stone.red_garnet": "Red Garnet",
+      "item.rayoki_stone.opal": "Opal",
+      "item.rayoki_stone.peridot": "Peridot",
       "block.rayoki_stone.crushedalvasite": "Crushed Alvasite",
+      "block.rayoki_stone.alvasite": "Alvasite",
+      "item.rayoki_stone.topaz": "Topaz",
       "item.rayoki_stone.magmanitee_sword": "Magmanite Sword",
+      "item.rayoki_stone.turquoise": "Turquoise",
       "item.rayoki_stone.magmanite_ingot": "Magmanite Ingot",
       "block.rayoki_stone.magmanitee": "Magmanite Ore",
-      "block.rayoki_stone.alvasite": "Alvasite"
+      "item.rayoki_stone.aquamarine": "Aquamarine",
+      "item.rayoki_stone.sapphire": "Sapphire"
     }
   },
   "foldersRoot": {
