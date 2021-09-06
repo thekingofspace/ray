@@ -3,14 +3,14 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "magnite",
+    "texture": "magmanitechunks",
     "customModelName": "Normal",
-    "name": "Magmanite Ingot",
-    "rarity": "RARE",
+    "name": "Magmanite Chunks",
+    "rarity": "COMMON",
     "creativeTab": {
       "value": "MISC"
     },
-    "stackSize": 1,
+    "stackSize": 64,
     "enchantability": 0,
     "useDuration": 0,
     "toolType": 1.0,
@@ -24,9 +24,7 @@
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "specialInfo": [
-      "Hold it outisde and itll turn into lightning"
-    ],
+    "specialInfo": [],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,

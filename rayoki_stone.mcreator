@@ -82,24 +82,6 @@
       "registry_name": "magmanite_ingot"
     },
     {
-      "name": "MagmaniteePickaxe",
-      "type": "tool",
-      "sortid": 8,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "magmanitee_pickaxe"
-    },
-    {
-      "name": "MagmaniteeAxe",
-      "type": "tool",
-      "sortid": 9,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "magmanitee_axe"
-    },
-    {
       "name": "MagmaniteeSword",
       "type": "tool",
       "sortid": 10,
@@ -107,24 +89,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "magmanitee_sword"
-    },
-    {
-      "name": "MagmaniteeShovel",
-      "type": "tool",
-      "sortid": 11,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "magmanitee_shovel"
-    },
-    {
-      "name": "MagmaniteeHoe",
-      "type": "tool",
-      "sortid": 12,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "magmanitee_hoe"
     },
     {
       "name": "MagmaniteeHelmetTickEvent",
@@ -144,30 +108,6 @@
       }
     },
     {
-      "name": "Magmanitee",
-      "type": "armor",
-      "sortid": 18,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "magmanitee",
-      "metadata": {
-        "eh": true,
-        "el": true,
-        "eb": true,
-        "ec": true
-      }
-    },
-    {
-      "name": "MagmaniteHelmetCraft",
-      "type": "recipe",
-      "sortid": 19,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "magmanite_helmet_craft"
-    },
-    {
       "name": "Craftsword",
       "type": "recipe",
       "sortid": 20,
@@ -175,6 +115,70 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "craftsword"
+    },
+    {
+      "name": "MagmaniteChunks",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magmanite_chunks"
+    },
+    {
+      "name": "MagmaniteChunksItemIsDroppedByPlayer",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magmanite_chunks_item_is_dropped_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CraftIngot",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "craft_ingot"
+    },
+    {
+      "name": "LightningiteItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lightningite_item_in_inventory_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -182,19 +186,12 @@
   "language_map": {
     "en_us": {
       "block.rayoki_stone.alvasite_brick": "Alvasite Brick",
+      "item.rayoki_stone.magmanite_chunks": "Magmanite Chunks",
       "block.rayoki_stone.crushedalvasite": "Crushed Alvasite",
-      "item.rayoki_stone.magmanitee_leggings": "Magmanite Leggings",
-      "item.rayoki_stone.magmanitee_boots": "Magmanite Boots",
-      "block.rayoki_stone.alvasite": "Alvasite",
-      "item.rayoki_stone.magmanitee_hoe": "Magmanite Hoe",
-      "item.rayoki_stone.magmanitee_chestplate": "Magmanite Body",
-      "item.rayoki_stone.magmanitee_pickaxe": "Magmanite Pickaxe",
       "item.rayoki_stone.magmanitee_sword": "Magmanite Sword",
-      "item.rayoki_stone.magmanitee_helmet": "Magmanite Helmet",
       "item.rayoki_stone.magmanite_ingot": "Magmanite Ingot",
       "block.rayoki_stone.magmanitee": "Magmanite Ore",
-      "item.rayoki_stone.magmanitee_axe": "Magmanite Axe",
-      "item.rayoki_stone.magmanitee_shovel": "Magmanite Shovel"
+      "block.rayoki_stone.alvasite": "Alvasite"
     }
   },
   "foldersRoot": {

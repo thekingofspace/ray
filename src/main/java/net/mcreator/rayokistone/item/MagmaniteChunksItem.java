@@ -4,29 +4,25 @@ package net.mcreator.rayokistone.item;
 import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.world.World;
-import net.minecraft.util.text.StringTextComponent;
-import net.minecraft.util.text.ITextComponent;
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.entity.Entity;
-import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.block.BlockState;
 
 import net.mcreator.rayokistone.procedures.MagmaniteIngotItemInHandTickProcedure;
 import net.mcreator.rayokistone.RayokiStoneModElements;
 
 import java.util.Map;
-import java.util.List;
 import java.util.HashMap;
 
 @RayokiStoneModElements.ModElement.Tag
-public class MagmaniteIngotItem extends RayokiStoneModElements.ModElement {
-	@ObjectHolder("rayoki_stone:magmanite_ingot")
+public class MagmaniteChunksItem extends RayokiStoneModElements.ModElement {
+	@ObjectHolder("rayoki_stone:magmanite_chunks")
 	public static final Item block = null;
-	public MagmaniteIngotItem(RayokiStoneModElements instance) {
-		super(instance, 7);
+	public MagmaniteChunksItem(RayokiStoneModElements instance) {
+		super(instance, 22);
 	}
 
 	@Override
@@ -35,8 +31,8 @@ public class MagmaniteIngotItem extends RayokiStoneModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(1).isImmuneToFire().rarity(Rarity.RARE));
-			setRegistryName("magmanite_ingot");
+			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64).isImmuneToFire().rarity(Rarity.COMMON));
+			setRegistryName("magmanite_chunks");
 		}
 
 		@Override
@@ -52,12 +48,6 @@ public class MagmaniteIngotItem extends RayokiStoneModElements.ModElement {
 		@Override
 		public float getDestroySpeed(ItemStack par1ItemStack, BlockState par2Block) {
 			return 1F;
-		}
-
-		@Override
-		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
-			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("Hold it outisde and itll turn into lightning"));
 		}
 
 		@Override

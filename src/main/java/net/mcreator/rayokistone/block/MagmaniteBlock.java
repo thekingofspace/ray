@@ -35,6 +35,7 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
+import net.mcreator.rayokistone.item.MagmaniteChunksItem;
 import net.mcreator.rayokistone.RayokiStoneModElements;
 
 import java.util.Random;
@@ -74,7 +75,7 @@ public class MagmaniteBlock extends RayokiStoneModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(this, 1));
+			return Collections.singletonList(new ItemStack(MagmaniteChunksItem.block));
 		}
 	}
 	private static Feature<OreFeatureConfig> feature = null;
